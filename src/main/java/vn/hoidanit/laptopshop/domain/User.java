@@ -6,33 +6,32 @@ public class User {
     private String email;
     private String password;
     private String fullName;
-    private String addrees;
+    private String address;
     private String phone;
 
-    public long id() {
+    public long getId() {
         return id;
     }
 
-    public String email() {
+    public String getEmail() {
         return email;
     }
 
-    public String password() {
+    public String getPassword() {
         return password;
     }
 
-    public String fullName() {
+    public String getFullName() {
         return fullName;
     }
 
-    public String addrees() {
-        return addrees;
+    public String getAddress() {
+        return address;
     }
 
-    public String phone() {
+    public String getPhone() {
         return phone;
     }
-
 
     public void setId(long id) {
         this.id = id;
@@ -50,8 +49,8 @@ public class User {
         this.fullName = fullName;
     }
 
-    public void setAddrees(String addrees) {
-        this.addrees = addrees;
+    public void setAddress(String address) {
+        this.address = address;
     }
 
     public void setPhone(String phone) {
@@ -65,7 +64,7 @@ public class User {
                 ", email='" + email + '\'' +
                 ", password='" + password + '\'' +
                 ", fullName='" + fullName + '\'' +
-                ", addrees='" + addrees + '\'' +
+                ", addrees='" + address + '\'' +
                 ", phone='" + phone + '\'' +
                 '}';
     }
